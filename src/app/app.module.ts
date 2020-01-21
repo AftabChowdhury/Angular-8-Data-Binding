@@ -3,10 +3,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { DatabindingTestComponent } from './databinding-test/databinding-test.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DatabindingTestComponent
   ],
   imports: [
     BrowserModule,
